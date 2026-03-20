@@ -1,6 +1,6 @@
 [model]
 embedding = { provider = "ollama", model = "embeddinggemma", base_url = "http://localhost:11434" }
-experiment = { provider = "ollama", model = "llama3.2:1b", base_url = "http://localhost:11434" }
+experiment = { provider = "ollama", model = "granite4:1b", base_url = "http://studio:11434" }
 hypothesis = { provider = "xai", model = "grok-4-1-fast-reasoning" }
 
 [experiment]
